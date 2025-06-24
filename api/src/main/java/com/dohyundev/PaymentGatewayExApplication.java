@@ -1,4 +1,4 @@
-package com.dohyundev.api;
+package com.dohyundev;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PaymentGatewayExApplication {
 
     public static void main(String[] args) {
+        System.setProperty("spring.config.name", "application,application-core,application-common");
         SpringApplication.run(PaymentGatewayExApplication.class, args);
     }
 
