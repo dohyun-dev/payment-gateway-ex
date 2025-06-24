@@ -1,0 +1,6 @@
+rootProject.name = 'payment-gateway-ex'
+
+include 'common'
+include 'core'
+include 'api'
+
